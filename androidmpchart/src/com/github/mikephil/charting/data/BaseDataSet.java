@@ -187,7 +187,7 @@ public abstract class BaseDataSet<T extends Entry> implements IDataSet<T> {
     public void setColors(int[] colors, Context c) {
 
         if(mColors == null){
-            mColors = new ArrayList<>();
+            mColors = new ArrayList<Integer>();
         }
 
         mColors.clear();

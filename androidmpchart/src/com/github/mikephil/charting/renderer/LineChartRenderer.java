@@ -596,7 +596,7 @@ public class LineChartRenderer extends LineRadarRenderer {
     /**
      * cache for the circle bitmaps of all datasets
      */
-    private HashMap<IDataSet, DataSetImageCache> mImageCaches = new HashMap<>();
+    private HashMap<IDataSet, DataSetImageCache> mImageCaches = new HashMap<IDataSet, DataSetImageCache>();
 
     /**
      * buffer for drawing the circles

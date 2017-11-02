@@ -33,7 +33,7 @@ public class PieDataSet extends DataSet<PieEntry> implements IPieDataSet {
     @Override
     public DataSet<PieEntry> copy() {
 
-        List<PieEntry> yVals = new ArrayList<>();
+        List<PieEntry> yVals = new ArrayList<PieEntry>();
 
         for (int i = 0; i < mValues.size(); i++) {
             yVals.add(mValues.get(i).copy());
